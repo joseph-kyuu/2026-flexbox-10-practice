@@ -63,14 +63,30 @@ ol {
 .pb-7 {
   padding-bottom: 5rem;
 }
+
+.px-1p625 {
+  padding-left: 1.625rem;
+  padding-right: 1.625rem;
+}
+
 .px-4p5 {
   padding-left: 4.5rem;
   padding-right: 4.5rem;
 }
 
+.px-9p125 {
+  padding-left: 9.125rem;
+  padding-right: 9.125rem;
+}
+
 .py-5p25 {
   padding-top: 5.25rem;
   padding-bottom: 5.25rem;
+}
+
+.py-16p75 {
+  padding-top: 16.75rem;
+  padding-bottom: 16.75rem;
 }
 
 /* margin */
@@ -83,7 +99,15 @@ ol {
   line-height: 1.2;
 }
 
+.lh-1p6 {
+  line-height: 1.6;
+}
+
 /* max-width */
 .max-w-23p25 {
   max-width: 372px;
+}
+
+.max-w-34p6875 {
+  max-width: 555px;
 }

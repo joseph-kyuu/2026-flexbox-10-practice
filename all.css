@@ -1,0 +1,89 @@
+/* 全域設定 */
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.4;
+  color: var(--black);
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 變數 */
+:root {
+  --black: #000000;
+  --primary-green: #3f5d45;
+  --secondary-yellow: #eaf0ed;
+}
+
+/* color */
+.primary-green {
+  color: var(--primary-green);
+}
+
+/* background */
+.primary-green-bg {
+  background: var(--primary-green);
+}
+
+.secondary-yellow-bg {
+  background: var(--secondary-yellow);
+}
+
+/* spacing */
+/* padding */
+.pt-6 {
+  padding-top: 2rem;
+}
+
+.pb-7 {
+  padding-bottom: 5rem;
+}
+.px-4p5 {
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+}
+
+.py-5p25 {
+  padding-top: 5.25rem;
+  padding-bottom: 5.25rem;
+}
+
+/* margin */
+.mb-6 {
+  margin-bottom: 32px;
+}
+
+/* line-height */
+.lh-1p2 {
+  line-height: 1.2;
+}
+
+/* max-width */
+.max-w-23p25 {
+  max-width: 372px;
+}

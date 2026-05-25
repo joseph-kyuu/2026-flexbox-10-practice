@@ -36,6 +36,7 @@ ol {
 /* 變數 */
 :root {
   --black: #000000;
+  --white: #ffffff;
   --primary-green: #3f5d45;
   --secondary-yellow: #eaf0ed;
 }
@@ -43,6 +44,10 @@ ol {
 /* color */
 .primary-green {
   color: var(--primary-green);
+}
+
+.white {
+  color: var(--white);
 }
 
 /* background */
@@ -65,6 +70,7 @@ ol {
   padding-top: 4rem;
 }
 
+/* 12px */
 .pb-p75 {
   padding-bottom: 0.75rem;
 }
@@ -108,14 +114,29 @@ ol {
   padding-bottom: 5.25rem;
 }
 
+.py-5 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .py-16p75 {
   padding-top: 16.75rem;
   padding-bottom: 16.75rem;
 }
 
 /* margin */
+
+/* 20px */
+.mb-1p25 {
+  margin-bottom: 1.25rem;
+}
+
 .mb-6 {
   margin-bottom: 32px;
+}
+
+.me-p75 {
+  margin-right: 0.75rem;
 }
 
 /* line-height */
@@ -143,4 +164,16 @@ ol {
 
 .max-width-48p5 {
   max-width: 48.5rem;
+}
+
+/* 608px */
+.max-width-38 {
+  max-width: 38rem;
+}
+
+/* 字級 */
+
+/* 20px */
+.fs-7 {
+  font-size: 1.25rem;
 }

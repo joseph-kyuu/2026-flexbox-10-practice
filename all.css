@@ -79,6 +79,7 @@ ol {
   padding-bottom: 5rem;
 }
 
+/* 12px */
 .px-0p75 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -87,6 +88,18 @@ ol {
 .px-1p625 {
   padding-left: 1.625rem;
   padding-right: 1.625rem;
+}
+
+/* 28px */
+.px-1p75 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+/* 40px */
+.px-2p5 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-4p5 {
@@ -102,6 +115,18 @@ ol {
 .px-9p125 {
   padding-left: 9.125rem;
   padding-right: 9.125rem;
+}
+
+/* 12px */
+.py-0p75 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+/* 40px */
+.py-2p5 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-p375 {
@@ -126,6 +151,11 @@ ol {
 
 /* margin */
 
+/* 12px */
+.mb-0p75 {
+  margin-bottom: 0.75rem;
+}
+
 /* 20px */
 .mb-1p25 {
   margin-bottom: 1.25rem;
@@ -135,8 +165,14 @@ ol {
   margin-bottom: 32px;
 }
 
+/* 12px */
 .me-p75 {
   margin-right: 0.75rem;
+}
+
+/* 12px */
+.me-4p5 {
+  margin-right: 4.5rem;
 }
 
 /* line-height */
@@ -153,13 +189,27 @@ ol {
   max-width: 372px;
 }
 
+/* max-width */
+.max-w-5p75 {
+  max-width: 5.75rem;
+}
+
 .max-w-34p6875 {
   max-width: 555px;
 }
 
-/* max-width */
 .max-width-48p5 {
   max-width: 48.5rem;
+}
+
+/* 320px */
+.max-w-20 {
+  max-width: 320px;
+}
+
+/* 354px */
+.max-w-22p125 {
+  max-width: 22.125rem;
 }
 
 .max-width-48p5 {
@@ -171,9 +221,24 @@ ol {
   max-width: 38rem;
 }
 
+/* 1286px */
+.max-w-80p275 {
+  max-width: 80.375rem;
+}
+
+/* min-width */
+.min-w-3p375 {
+  min-width: 54px;
+}
+
 /* 字級 */
 
 /* 20px */
 .fs-7 {
   font-size: 1.25rem;
+}
+
+/* 14px */
+.fs-8 {
+  font-size: 0.875rem;
 }

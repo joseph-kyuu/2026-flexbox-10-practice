@@ -59,6 +59,10 @@ ol {
   background: var(--secondary-yellow);
 }
 
+.bg-white {
+  background: #ffffff;
+}
+
 /* spacing */
 /* padding */
 
@@ -68,6 +72,10 @@ ol {
 
 .pt-7 {
   padding-top: 4rem;
+}
+
+.pt-8 {
+  padding-top: 1.25rem;
 }
 
 /* 12px */
@@ -88,6 +96,11 @@ ol {
 .px-1p625 {
   padding-left: 1.625rem;
   padding-right: 1.625rem;
+}
+
+.px-32 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /* 28px */
@@ -121,6 +134,12 @@ ol {
 .py-0p75 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+/* 28px */
+.py-1p75 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
 }
 
 /* 40px */
@@ -175,6 +194,11 @@ ol {
   margin-right: 4.5rem;
 }
 
+/* 48px */
+.me-48 {
+  margin-right: 3rem;
+}
+
 /* line-height */
 .lh-1p2 {
   line-height: 1.2;
@@ -196,6 +220,10 @@ ol {
 
 .max-w-34p6875 {
   max-width: 555px;
+}
+
+.max-width-48p375 {
+  max-width: 48.375rem;
 }
 
 .max-width-48p5 {
@@ -221,6 +249,10 @@ ol {
   max-width: 38rem;
 }
 
+.max-width-56p975 {
+  max-width: 56.875rem;
+}
+
 /* 1286px */
 .max-w-80p275 {
   max-width: 80.375rem;
@@ -229,6 +261,11 @@ ol {
 /* min-width */
 .min-w-3p375 {
   min-width: 54px;
+}
+
+/* 176px */
+.min-w-11 {
+  min-width: 11rem;
 }
 
 /* 字級 */

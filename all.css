@@ -9,6 +9,7 @@ body {
 a {
   text-decoration: none;
   display: block;
+  color: var(--black);
 }
 
 img {
@@ -115,6 +116,11 @@ ol {
   padding-right: 2.5rem;
 }
 
+.px-3p5 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
 .px-4p5 {
   padding-left: 4.5rem;
   padding-right: 4.5rem;
@@ -163,6 +169,11 @@ ol {
   padding-bottom: 5rem;
 }
 
+.py-12p5 {
+  padding-top: 12.5rem;
+  padding-bottom: 12.5rem;
+}
+
 .py-16p75 {
   padding-top: 16.75rem;
   padding-bottom: 16.75rem;
@@ -187,6 +198,11 @@ ol {
 /* 12px */
 .me-p75 {
   margin-right: 0.75rem;
+}
+
+/* 20px */
+.me-1p25 {
+  margin-right: 1.25rem;
 }
 
 /* 12px */

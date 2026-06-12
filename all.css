@@ -60,6 +60,10 @@ ol {
   background: var(--secondary-yellow);
 }
 
+.bg-light-green {
+  background: #b3d4d1;
+}
+
 .bg-white {
   background: #ffffff;
 }
@@ -169,6 +173,11 @@ ol {
   padding-bottom: 5rem;
 }
 
+.py-10p5 {
+  padding-top: 10.5rem;
+  padding-bottom: 10.5rem;
+}
+
 .py-12p5 {
   padding-top: 12.5rem;
   padding-bottom: 12.5rem;
@@ -220,8 +229,15 @@ ol {
   line-height: 1.2;
 }
 
+.lh-1p5 {
+  line-height: 1.5;
+}
 .lh-1p6 {
   line-height: 1.6;
+}
+
+.letter-spacing-1 {
+  letter-spacing: 3%;
 }
 
 /* max-width */
@@ -265,6 +281,11 @@ ol {
   max-width: 38rem;
 }
 
+/* 856px */
+.max-width-53p5 {
+  max-width: 53.5rem;
+}
+
 .max-width-56p975 {
   max-width: 56.875rem;
 }
@@ -282,6 +303,11 @@ ol {
 /* 176px */
 .min-w-11 {
   min-width: 11rem;
+}
+
+/* 500px  */
+.min-w-31p25 {
+  min-width: 31.25px;
 }
 
 /* 字級 */

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horizontal Card Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../all.css" />
+  </head>
+  <body class="bg-light-gray">
+    <main class="container p-5">
+      <!-- 卡片 -->
+      <div class="p-0p375 max-w-20 bg-white mx-auto">
+        <!-- 訂單摘要、小計、運費、總計 -->
+        <div>
+          <!-- 訂單摘要標題 -->
+          <div class="text-center bg-primary-green py-3">
+            <h1 class="fs-4 fw-medium">訂單摘要</h1>
+          </div>
+          <!-- 小計、運費、總計 -->
+          <div class="p-3">
+            <!-- 小計、運費 -->
+            <div class="mb-3">
+              <!-- 小計 -->
+              <p
+                class="d-flex justify-content-between secondary-green fw-medium"
+              >
+                <span>小計</span>
+                <span>NT$ 2,700</span>
+              </p>
+              <!-- 運費 -->
+              <p
+                class="d-flex justify-content-between secondary-green fw-medium"
+              >
+                <span>運費</span>
+                <span>NT$ 300</span>
+              </p>
+            </div>
+            <!-- 總計 -->
+            <div>
+              <p
+                class="d-flex justify-content-between fs-7 secondary-green fw-semibold"
+              >
+                <span>總計</span>
+                <span>NT$ 3,000</span>
+              </p>
+            </div>
+            <div></div>
+          </div>
+        </div>
+        <!-- 購物清單、清單列表 -->
+        <div class="border border-secondary-yellow">
+          <!-- 購物清單標題 -->
+          <div class="text-center bg-primary-green py-3">
+            <h2 class="fs-4 fw-medium">購物清單</h2>
+          </div>
+          <!-- 清單列表 -->
+          <ul class="product-list list-unstyled p-3">
+            <!-- 商品一 -->
+            <li class="d-flex mb-0p75">
+              <!-- 圖片 -->
+              <div class="pe-3">
+                <img src="../img/9.訂單明細/pic.png" alt="商品圖片" />
+              </div>
+              <!-- 品名、價格 -->
+              <div class="py-0p75">
+                <!-- 品名 -->
+                <div>
+                  <p class="secondary-green fw-medium">焦糖馬卡龍（2）</p>
+                </div>
+                <!-- 價格 -->
+                <p class="fs-7 secondary-green fw-semibold">NT$ 900</p>
+              </div>
+            </li>
+            <!-- 商品二 -->
+            <li class="d-flex mb-0p75">
+              <!-- 圖片 -->
+              <div class="pe-3">
+                <img src="../img/9.訂單明細/pic.png" alt="商品圖片" />
+              </div>
+              <!-- 品名、價格 -->
+              <div class="py-0p75">
+                <!-- 品名 -->
+                <div>
+                  <p class="secondary-green fw-medium">焦糖馬卡龍（2）</p>
+                </div>
+                <!-- 價格 -->
+                <p class="fs-7 secondary-green fw-semibold">NT$ 900</p>
+              </div>
+            </li>
+            <!-- 商品三 -->
+            <li class="d-flex mb-0p75">
+              <!-- 圖片 -->
+              <div class="pe-3">
+                <img src="../img/9.訂單明細/pic.png" alt="商品圖片" />
+              </div>
+              <!-- 品名、價格 -->
+              <div class="py-0p75">
+                <!-- 品名 -->
+                <div>
+                  <p class="secondary-green fw-medium">焦糖馬卡龍（2）</p>
+                </div>
+                <!-- 價格 -->
+                <p class="fs-7 secondary-green fw-semibold">NT$ 900</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

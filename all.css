@@ -86,6 +86,10 @@ ol {
   border: var(--secondary-yellow-10a);
 }
 
+.border-secondary-gray {
+  border: var(--secondary-yellow);
+}
+
 /* spacing */
 /* padding */
 
@@ -112,6 +116,12 @@ ol {
 
 .pb-7 {
   padding-bottom: 5rem;
+}
+
+/* 44px */
+.px-2p75 {
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
 }
 
 /* 12px */
@@ -157,9 +167,26 @@ ol {
   padding-right: 5.25rem;
 }
 
+.px-5p625 {
+  padding-left: 5.625rem;
+  padding-right: 5.625rem;
+}
+
+/* 102px */
+.px-6p375 {
+  padding-left: 6.375rem;
+  padding-right: 6.375rem;
+}
+
 .px-9p125 {
   padding-left: 9.125rem;
   padding-right: 9.125rem;
+}
+
+/* 10px */
+.px-0p625 {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
 }
 
 /* 12px */
@@ -263,6 +290,17 @@ ol {
 }
 
 /* max-width */
+
+/* 320px */
+.max-w-20 {
+  max-width: 20rem;
+}
+
+/* 300px */
+.max-w-18p75 {
+  max-width: 18.75rem;
+}
+
 .max-w-23p25 {
   max-width: 372px;
 }
@@ -312,6 +350,18 @@ ol {
   max-width: 56.875rem;
 }
 
+/* 620px */
+
+.max-width-38p75 {
+  max-width: 38.75rem;
+}
+
+/* 952px */
+
+.max-width-59p5 {
+  max-width: 59.5rem;
+}
+
 /* 1286px */
 .max-w-80p275 {
   max-width: 80.375rem;
@@ -325,6 +375,11 @@ ol {
 /* 176px */
 .min-w-11 {
   min-width: 11rem;
+}
+
+/* 300px  */
+.min-w-18p75 {
+  max-width: 18.75px;
 }
 
 /* 500px  */
@@ -344,6 +399,32 @@ ol {
   font-size: 0.875rem;
 }
 
+/* 24px */
+.fs-9 {
+  font-size: 1.5rem;
+}
+
+/* hover */
+.menu:hover {
+  background: var(--secondary-yellow);
+  color: var(--primary-green);
+}
+
+.menu-active {
+  background: var(--primary-green);
+  color: white;
+}
+
+/* 最後一個的間距為0 */
+
 .product-list > li:last-child {
   margin-bottom: 0;
+}
+
+.menu-card > li:last-child {
+  margin-bottom: 0;
+}
+
+.menu-card > li:nth-child(odd) {
+  margin-right: 16px;
 }
